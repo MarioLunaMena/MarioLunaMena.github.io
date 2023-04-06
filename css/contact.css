@@ -266,11 +266,6 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
-@media (min-width: 700px) {
-    body {
-        padding: 0 4rem;
-    }
-
     .contenedor-wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;
