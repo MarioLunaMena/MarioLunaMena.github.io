@@ -10,6 +10,8 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-color: #137276;
+    color: #fff
 }
 
 /*Estilo del Header*/
@@ -174,3 +176,110 @@ body {
 .button5:hover::before {
     transform: translate(12px, 12px);
 }
+
+/* Estilo de la Caja de Contacto*/ 
+
+.contenedor {
+    padding: 20px;
+    font-family: 'Press Start 2P', cursive;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor .contenedor-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contenedor .contenedor-wrapper > * {
+    padding: 10px;
+}
+
+.contact-form {
+    background-color: #0d5254;
+}
+
+.contact-info {
+    background-color: #072d2e;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form p {
+    margin: o;
+    padding: 1rem;
+}
+
+.contact-form h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-form form button, .contact-form form input, .contact-form form textarea {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #09ccd3;
+    outline: none;
+    color: #fff;
+}
+
+.contact-form form button {
+    background-color: #34A0A4;
+    border: 0;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family:  'Press Start 2P', cursive;
+}
+
+.contact-form form button:hover, 
+.contact-form form button:focus {
+    background-color: #072d2e;
+    transition: background-color .5s ease-out;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+@media (min-width: 700px) {
+    body {
+        padding: 0 4rem;
+    }
+
+    .contenedor-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    } 
+
+    .contenedor-wrapper > * {
+        padding: 2em;
+    } 
+
+    .contact-info h4, .contact-info ul, .contact-info p {
+        padding: 15px;
+    }
