@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -33,8 +37,8 @@ body {
 }
 
 .main-buttons a{
-    color: #76C893;
-    background-color: black;
+    color: #0e413f;
+    background-color: none;
     border-radius: 30px;
     margin: 5px;
     padding: 14px 20px;
@@ -43,6 +47,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 250px;
+    justify-content: center;
  }
 
 .button1::after, .button1::before {
@@ -186,10 +192,11 @@ body {
 }
 
 .galeria  img {
-    width:  100%;
+    width:  490px;
     vertical-align: top;
-    height: 100%;
-    transition: transform 1s;    
+    height: 450px;
+    transition: transform 1s;
+    object-position: center;    
 }
 
 .galeria .imagen {
@@ -228,3 +235,15 @@ body {
 .galeria .imagen .texto-imagen:hover {
     opacity: 1;
 }
+
+/*Estilos del Footer*/ 
+
+footer .imagen-footer {
+    background-color: #144041;
+}
+
+footer .imagen-footer .flecha {
+    display: flex;
+    justify-content: center;
+}
+

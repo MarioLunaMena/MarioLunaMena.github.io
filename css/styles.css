@@ -78,8 +78,8 @@ header .head-image-kaki .social-media{
 }
 
 .main-buttons a{
-    color: #76C893;
-    background-color: black;
+    color: #0e413f;
+    background-color: none;
     border-radius: 30px;
     margin: 5px;
     padding: 14px 20px;
@@ -88,6 +88,8 @@ header .head-image-kaki .social-media{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 250px;
+    justify-content: center;
  }
 
 .button1::after, .button1::before {
@@ -128,6 +130,7 @@ header .head-image-kaki .social-media{
     bottom: 0;
     z-index: -1;
     transition: transform 0.3s ease;
+    display: flex;
 }
 
 .button2:hover {

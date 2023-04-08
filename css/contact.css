@@ -35,8 +35,8 @@ body {
 }
 
 .main-buttons a{
-    color: #76C893;
-    background-color: black;
+    color: #0e413f;
+    background-color: none;
     border-radius: 30px;
     margin: 5px;
     padding: 14px 20px;
@@ -45,6 +45,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 250px;
+    justify-content: center;
  }
 
 .button1::after, .button1::before {
