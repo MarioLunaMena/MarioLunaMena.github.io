@@ -192,7 +192,7 @@ body {
 }
 
 .galeria  img {
-    width:  490px;
+    width:  100%;
     vertical-align: top;
     height: 450px;
     transition: transform 1s;
@@ -246,4 +246,3 @@ footer .imagen-footer .flecha {
     display: flex;
     justify-content: center;
 }
-

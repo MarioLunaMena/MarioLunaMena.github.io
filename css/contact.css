@@ -184,7 +184,7 @@ body {
 .contenedor {
     padding: 20px;
     font-family: 'Press Start 2P', cursive;
-    max-width: 1170px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -200,14 +200,17 @@ body {
 
 .contenedor .contenedor-wrapper > * {
     padding: 10px;
+    
 }
 
 .contact-form {
     background-color: #0d5254;
+
 }
 
 .contact-info {
     background-color: #072d2e;
+ 
 }
 
 .contact-form form {
